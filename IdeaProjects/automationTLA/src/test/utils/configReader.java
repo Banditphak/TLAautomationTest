@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-public class configReader {
+public class ConfigReader {
     public static String readProperty(String filePath, String property){
         Properties prop = null;
         try{
